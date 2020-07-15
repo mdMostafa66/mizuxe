@@ -1,0 +1,58 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin-top: 68px;
+}
+.navbar{
+    box-shadow: 2px 2px 5px #3292a6;
+    background-color: #fff;
+    opacity: 0.9;
+}
+ul li a{
+    color: #252525 !important;
+    font-size: 1.4rem;
+    padding-right: 20px;
+}
+ul li a:hover{
+    color: #3292a6 !important;
+}
+ul li a:last-child{
+    padding-right: 0;
+}
+#showCase{
+    background-image: linear-gradient(#614f945b,#614f945b),linear-gradient(#614f945b,#614f945b), url(./img/bg-show.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.head-title{
+    color: #3292a6;
+}
+.color .card-body{
+    background-color: #3292a6;
+}
+#authors img{
+    margin-top: -50px;
+}
+#authors i{
+    font-size: 25px;
+}
+#authors .card:hover{
+    background-color: #3292a6;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+#authors .card:hover i{
+    color: #fff;
+}
+
+/* MEDIA QUERY START */
+@media(max-width: 320px){
+    .info-contact h3{
+        font-size: 45px;
+    }
+    footer p, footer span{
+        font-size: 14px !important;
+    }
+}
